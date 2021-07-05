@@ -75,10 +75,10 @@
         margin: 30,
         items: 5,
         autoplay: true,
-        autoplayTimeout: 1500,
+        autoplayTimeout: 2500,
         autoplayHoverPause: true,
-        nav: false,
-        dots: false,
+        nav: true,
+        dots: true,
         responsive: {
           0: {
             items: 1,
@@ -88,13 +88,7 @@
           },
           575: {
             items: 3,
-          },
-          768: {
-            items: 4,
-          },
-          992: {
-            items: 5,
-          },
+          }
         },
       });
     }
