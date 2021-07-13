@@ -79,7 +79,7 @@ p {
   font-size: 15px;
   color: #ffffff;
   border-radius: 30px;
-  padding: 12px 30px !important;
+  padding: 13px 30px !important;
   background-color: transparent;
   background-image: linear-gradient(288deg, #ffa369 0%, #ff436b 100%);
   box-shadow: 0 15px 40px 0 rgb(255 115 106 / 62%);
@@ -102,11 +102,13 @@ p {
   transition: 0.5s;
   transform: translate(-50%, -50%) scale(0);
 }
+
 .btn_a:hover::after {
   transform: translate(-50%, -50%) scale(1);
 }
 .btn_a:hover {
   box-shadow: 0 10px 25px 0 rgb(60 240 255 / 33%);
+  color: #ffffff;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -545,7 +547,7 @@ header {
   margin: 45px 0;
   position: relative;
 }
-.input_box {
+.crypto_cal_area .input_box {
   display: block;
   background-color: transparent;
   color: #ffffff;
@@ -762,13 +764,119 @@ header {
 .owl-dots {
   text-align: center;
   padding-top: 15px;
-  
 }
-.owl-dot{
-  background-color: #000000;
+.owl-dot {
+  background-color: #cecdcd;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background: linear-gradient(121deg, #ffa369 40%, #ff436b 89%);
+}
+/* footer area */
+.footer_area {
+  background-color: #0817a2;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  z-index: 1;
+  margin-top: 140px;
+}
+.footer_area::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg-home.svg);
+  z-index: -1;
+  border-radius: 120px 120px 0 0;
+}
+.footer_top {
+  position: relative;
+}
+.footer_top_wrap {
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(121deg, #ff436b 30%, #ffa369 89%);
+  border-radius: 20px;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: -120px;
+  left: 0;
+}
+.footer_top_left p {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.footer_logo img {
+  max-width: 100px;
+}
+.footer_top_fight .btn_a {
+  background: #0817a2;
+}
+.footer_bottom {
+  padding-top: 220px;
+}
+.footer_icon a {
+  color: #ffffff;
+  padding-right: 25px;
+  font-size: 18px;
+  transition: 0.4s;
+}
+.footer_icon a:hover {
+  color: #ffa369;
+}
+.contact_info h5,
+.Quick_Links h5,
+.Newsletter h5 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.contact_info span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact_info p {
+  display: inline;
+  font-size: 15px;
+}
+.Quick_Links a {
+  font-size: 15px;
+  display: block;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.Quick_Links a:hover {
+  color: #ffa369;
+}
+.Newsletter .input_box {
+  width: 100%;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: #2d36ad;
+  color: #ffffff;
+}
+.Newsletter .input_box::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+.Newsletter .submit_btn {
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+.Newsletter .btn_a:hover::after {
+  transform: translate(-50%, -50%) scale(2);
 }
 /*return-to-top START CSS*/
-
 .back-to-top {
   font-size: 24px;
   width: 45px;

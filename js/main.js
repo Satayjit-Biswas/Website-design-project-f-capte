@@ -73,11 +73,11 @@
       $(".owl-carousel.client_carousel").owlCarousel({
         loop: true,
         margin: 30,
-        items: 5,
+        items: 1,
         autoplay: true,
         autoplayTimeout: 2500,
         autoplayHoverPause: true,
-        nav: true,
+        nav: false,
         dots: true,
         responsive: {
           0: {
