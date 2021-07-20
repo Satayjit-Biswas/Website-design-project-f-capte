@@ -93,6 +93,30 @@
       });
     }
     client_carouselInit();
+    function recent_artical() {
+      $(".recent_articles_right .owl-theme").owlCarousel({
+        loop: true,
+        margin: 30,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          390: {
+            items: 2,
+          },
+          575: {
+            items: 3,
+          }
+        },
+      });
+    }
+    recent_artical();
     // jaralax effect
     var rellax = new Rellax(".rellax", {
       speed: -2,
