@@ -784,14 +784,12 @@ header {
   margin: 90px 0 210px 0;
 }
 .recent_articles_right_box{
-  margin: 20px 0;
   padding: 12px;
   border: 2px solid #d8d6d6;
   border-radius: 15px;
   transition: .3s;
 }
 .recent_articles_right_box:hover>.recent_articles_right_btn{
-  visibility: visible;
   opacity: 1;
 }
 .recent_articles_right_box .recent_articles_right_img img {
@@ -828,7 +826,7 @@ header {
 .recent_articles_right_btn{
   margin: 10px 0;
   opacity: 0;
-  transform: .3s;
+  transform: .4s;
 }
 /* footer area */
 .footer_area {
