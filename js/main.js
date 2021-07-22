@@ -51,8 +51,9 @@
     });
 
     // Hamburger-menu
-    $(".hamburger-menu").on("click", function () {
-      $(".hamburger-menu .line-top, .ofcavas-menu").toggleClass("current");
+    $(".hamburger-menu,#menu li a").on("click", function () {
+      $("#menu").toggleClass("tab_menu");
+      $(".hamburger-menu .line-top").toggleClass("current");
       $(".hamburger-menu .line-center").toggleClass("current");
       $(".hamburger-menu .line-bottom").toggleClass("current");
     });
@@ -83,10 +84,10 @@
           0: {
             items: 1,
           },
-          390: {
+          567: {
             items: 2,
           },
-          575: {
+          992: {
             items: 3,
           }
         },
@@ -107,10 +108,10 @@
           0: {
             items: 1,
           },
-          390: {
+          567: {
             items: 2,
           },
-          575: {
+          992: {
             items: 3,
           }
         },

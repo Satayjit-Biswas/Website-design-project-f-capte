@@ -1,11 +1,11 @@
 /*======================
-   01. Google fonts
+  01. Google fonts
 ========================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 
 /*======================
-   02. Basic css
+  02. Basic css
 ========================*/
 html,
 body,
@@ -87,6 +87,7 @@ p {
   overflow: hidden;
   position: relative;
   transition: 0.3s;
+  flex-shrink: 0;
 }
 
 .btn_a::after {
@@ -379,11 +380,11 @@ textarea:focus {
   right: 15px;
   display: none;
   z-index: 999;
-  top: -15px;
+  top: 20px;
 }
 
 .hamburger-menu span {
-  background: #847631;
+  background: #ffffff;
   width: 30px;
   height: 3px;
   display: block;
@@ -420,37 +421,6 @@ textarea:focus {
   -ms-transform: translateY(-325%) rotate(-135deg);
   transform: translateY(-325%) rotate(-135deg);
 }
-
-/*ofcanvas-menu*/
-.ofcavas-menu {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: -1;
-  top: 0;
-  display: none;
-  left: -100%;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  text-align: center;
-}
-
-.ofcavas-menu.current {
-  left: 0;
-}
-
-.ofcavas-menu a {
-  color: #5f490c;
-  margin-top: 10px;
-}
-
-.ofcavas-menu ul {
-  margin-top: 70px;
-  line-height: 22px;
-}
-
 /* menu  */
 header {
   position: absolute;
@@ -468,16 +438,40 @@ header {
 #menu li {
   display: inline-block;
   color: #fff;
+  margin: 0 13px;
 }
 
 #menu li a {
   font-size: 15px;
   text-transform: capitalize;
   color: #ffffff;
-  padding: 0 13px;
+  padding: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  position: relative;
+}
+#menu li a::after{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #ffa369;
+  top: 22px;
+  right: 50%;
+  z-index: 99;
+  transition: 0.4s;
+}
+#menu li a::before{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #ffa369;
+  top: 22px;
+  left: 50%;
+  z-index: 99;
+  transition: .4s;
 }
 
 #menu li:last-child a {
@@ -488,11 +482,25 @@ header {
 #menu > li > a:hover {
   color: #ffa369;
 }
+#menu > li > a:hover::after,#menu > li > a:hover::before{
+  width: 50%;
+}
 .logo img {
   max-width: 100px;
 }
+.login{
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+}
 .login a {
   color: #ffffff;
+}
+.sign_btn{
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .login_user,
 .login_user i {
@@ -502,13 +510,15 @@ header {
 .login_user:hover i {
   color: #ffa369;
 }
+/* ------------------------
+	home page 
+	------------------------ */
 /* home page slider area  */
 .slider_bg {
   padding: 150px 0 320px 0;
-  min-height: 800px;
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% auto; 
 }
 .bg_shape {
   position: absolute;
@@ -533,7 +543,7 @@ header {
 /* Cryptocurrency Calculator area  */
 .crypto_cal_area_box {
   box-shadow: 0 15px 70px 0 rgb(255 115 106 / 66%);
-  margin: -180px 40px 40px 40px;
+  margin: -180px 40px 80px 40px;
   padding: 60px 160px;
   text-align: center;
   border-radius: 20px;
@@ -649,19 +659,21 @@ header {
 .Connecting_bg_shape1 {
   position: absolute;
   top: 53%;
-  right: 60px;
+  right: 90px;
   z-index: 1;
 }
 .Connecting_bg_shape2 {
   position: absolute;
   top: 78%;
-  right: 160px;
+  right: 350px;
   z-index: 1;
 }
 .Connecting_bg_shape1 img {
+  max-width: 80px;
   transform: rotate(400deg);
 }
 .Connecting_bg_shape2 img {
+  max-width: 140px;
   transform: rotate(100deg);
 }
 /* Our Services area  */
@@ -689,6 +701,7 @@ header {
   margin-bottom: 50px;
 }
 .service_box p {
+  min-height: 110px;
   transition: 0.4s;
 }
 .service_box h5 {
@@ -707,7 +720,7 @@ header {
   padding: 60px 40px 40px 40px;
   border-radius: 20px;
   position: relative;
-  margin: 50px 0;
+  margin: 50px 0 25px 0;
   transition: 0.4s;
   z-index: -2;
 }
@@ -864,10 +877,13 @@ header {
   margin-top: 10px;
   max-width: 100%;
 }
+.footer_top_right{
+  flex-shrink: 0;
+}
 .footer_logo img {
   max-width: 100px;
 }
-.footer_top_fight .btn_a {
+.footer_top_right .btn_a {
   background: #0817a2;
 }
 .footer_bottom {
