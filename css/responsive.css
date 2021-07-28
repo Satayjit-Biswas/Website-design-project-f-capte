@@ -1,331 +1,397 @@
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1399px){
-	
+@media (max-width: 1399px) {
 }
-@media (min-width: 2000px) { 
-
-	/* ------------------------
+@media (min-width: 2000px) {
+  /* ------------------------
 	home page 
 	------------------------ */
 
-	/* slider area  */
-	.slider_bg {
-		padding: 180px 0 380px 0;
-		background-position: bottom center;
-	}
-	.Connecting_area_left, .Connecting_area_right {
-		padding: 85% 0;
-		margin: 20% 0;
-	}
+  /* slider area  */
+  .slider_bg {
+    padding: 180px 0 380px 0;
+    background-position: bottom center;
+  }
+  .Connecting_area_left,
+  .Connecting_area_right {
+    padding: 85% 0;
+    margin: 20% 0;
+  }
 }
 @media (min-width: 1600px) {
-	/* ------------------------
-	home page 
-	------------------------ */ 
-	.container{
-		max-width: 1400px;
-	}
-	/* slider area  */
-	.slider_bg {
-		padding: 160px 0 350px 0;
-		background-position: bottom center;
-	}
-	/* crypto cal area  */
-	.crypto_cal_area_box {
-		margin: -240px 40px 80px 40px;
-	}
-	.Connecting_area_left, .Connecting_area_right {
-		padding: 60% 0;
-		margin: 20% 0;
-	}
-	.Connecting_bg_shape1 {
-		top: 40%;
-	}
-	.Connecting_bg_shape2 {
-		top: 45%;
-	}
-	/* happ claint  */
-	.happy_clients_area {
-		margin: 150px 0;
-	}
-	.recent_articles {
-		margin: 200px 0 300px 0;
-	}
-	.service_box {
-		padding: 55px !important;
-	}
-}
-@media (min-width: 1200px) { 
-	/* ------------------------
+  /* ------------------------
 	home page 
 	------------------------ */
-	.slider_bg {
-		background-size: cover;
-	}
-	h2 {
-		font-size: 45px;
-	}
-	.service_box {
-		padding: 25px;
-	}
-	
+  .container {
+    max-width: 1400px;
+  }
+  /* slider area  */
+  .slider_bg {
+    padding: 160px 0 350px 0;
+    background-position: bottom center;
+  }
+  /* crypto cal area  */
+  .crypto_cal_area_box {
+    margin: -240px 40px 80px 40px;
+  }
+  .Connecting_area_left,
+  .Connecting_area_right {
+    padding: 60% 0;
+    margin: 20% 0;
+  }
+  .Connecting_bg_shape1 {
+    top: 40%;
+  }
+  .Connecting_bg_shape2 {
+    top: 45%;
+  }
+  /* happ claint  */
+  .happy_clients_area {
+    margin: 150px 0;
+  }
+  .recent_articles {
+    margin: 200px 0 300px 0;
+  }
+  .service_box {
+    padding: 55px !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* ------------------------
+	home page 
+	------------------------ */
+  .container {
+    max-width: 1300px;
+  }
+  .slider_bg {
+    background-size: cover;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .service_box {
+    padding: 25px;
+  }
 }
 
-@media (max-width: 1199.98px) { 
-	/* ------------------------
+@media (max-width: 1199.98px) {
+  /* ------------------------
 	home page 
 	------------------------ */
-	h2 {
-		font-size: 42px;
-		line-height: 55px;
-	}
-	h3 {
-		font-size: 32px;
-	}
-	#menu li {
-		margin: 0 10px;
-	}
-	.slider_bg {
-		padding: 150px 0 280px 0;
-		background-size: cover;
-	}
-	.bg_shape1 img {
-		max-width: 55px;
-	}
-	.bg_shape2 {
-		left: 50%;
-	}
-	.bg_shape2 img {
-		max-width: 125px;
-	}
-	.crypto_cal_area_box {
-		padding: 40px 45px;
-	}
-	.Connecting_area_left, .Connecting_area_right {
-		padding: 260px 0;
-	}
-	.Connecting_bg_shape1{
-		right: 157px;
-	}
-	.Connecting_bg_shape2 {
-		right: 287px;
-	}
-	.Connecting_bg_shape1 img{
-		max-width: 50px;
-	}
-	.Connecting_bg_shape2 img{
-		max-width: 100px;
-	}
-	.client_box {
-		padding: 45px 20px 25px 20px;
-		margin: 50px 0 10px 0;
-	}
-	.client_details {
-		margin-top: 20px;
-	}
-	.recent_articles_left{
-		text-align: center;
-	}
-	.recent_articles_left a{
-		display: block;
-	}
+  h2 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  #menu li {
+    margin: 0 10px;
+  }
+  .slider_bg {
+    padding: 150px 0 280px 0;
+    background-size: cover;
+  }
+  .bg_shape1 img {
+    max-width: 55px;
+  }
+  .bg_shape2 {
+    left: 50%;
+  }
+  .bg_shape2 img {
+    max-width: 125px;
+  }
+  .crypto_cal_area_box {
+    padding: 40px 45px;
+  }
+  .Connecting_area_left,
+  .Connecting_area_right {
+    padding: 260px 0;
+  }
+  .Connecting_bg_shape1 {
+    right: 157px;
+  }
+  .Connecting_bg_shape2 {
+    right: 287px;
+  }
+  .Connecting_bg_shape1 img {
+    max-width: 50px;
+  }
+  .Connecting_bg_shape2 img {
+    max-width: 100px;
+  }
+  .client_box {
+    padding: 45px 20px 25px 20px;
+    margin: 50px 0 10px 0;
+  }
+  .client_details {
+    margin-top: 20px;
+  }
+  .recent_articles_left {
+    text-align: center;
+  }
+  .recent_articles_left a {
+    display: block;
+  }
+ /*------------------------------------------------------------------------ service page --------------------------------------------------- */
+ .others_bg_area {
+    min-height: 40vh;
+  }
+  .others_bg_area img {
+    top: 120px;
+    height: 245px;
+}
+  /* ----------------------------------------------------------------------------- choose area --------------------------------------- */
+  .choose_left_area {
+	text-align: center;
+  }
+  .choose_left_area P{
+	  margin-bottom: 20px;
+  }
+  .choose_right_area {
+    margin-left: 0px;
+}
+  /* --------------------------------------------------------- about page ------------------------------------------------ */
+  /* -----------------------------------------------------------counter area ----------------------------- */
+  .achievements_area {
+    margin: 80px 0;
+  }
+  .achievements_area_right {
+    margin: 0;
+  }
+  .achievements_area_right p {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 991.98px) {
-	/* ------------------------
+  /* ------------------------
 	home page 
 	------------------------ */
-	h3 {
-		font-size: 22px;
-	}
-	p {
-		font-size: 15px;
-	}
-	.btn_a {
-		padding: 10px 30px !important;
-	}
-	.login {
-		margin-left: 0px;
-		margin-right: 60px;
-	}
-	.hamburger-menu {
-		display: block;
-	}
-	#menu{
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		top: 0;
-		right: -100%;
-		background-color: #0f02ce;
-		z-index: -1;
-		transition: .4s;
-		padding-top: 120px;
-	}
-	#menu li {
-		display: block;
-		text-align: center;
-		margin-top: 20px;
-	}
-	#menu li a{
-		display: inline-block;
-		font-size: 18px;
-	}
-	.tab_menu{
-		right: 0 !important;
-	}
-	.crypto_cal_area .input_box {
-		font-size: 16px;
-	}
-	.select_box {
-		line-height: 15px;
-	}
-	.nice-select {
-		font-size: 12px;
-	}
-	.input_rap {
-		margin: 30px 0;
-	}
-	.crypto_cal_area_box {
-		box-shadow: 0 3px 21px 0 rgb(255 115 106 / 66%);
-		margin: -210px 40px 20px 40px;
-		padding: 25px 30px;
-	}
-	.Connecting_box{
-		padding: 230px 0;
-	}
-	.Connecting_area_left, .Connecting_area_right {
-		padding: 0;
-		margin: 0;
-	}
-	.Connecting_bg_shape2 {
-		right: 216px;
-	}
-	.Connecting_bg_shape2 {
-		top: 140%;
-	}
-	.Connecting_bg_shape1 {
-		right: 110px;
-	}
-	.Connecting_bg_shape1 {
-		top: 75%;
-		right: 90px;
-	}
-	.footer_icon a {
-		padding-right: 15px;
-	}
-	.Newsletter .input_box {
-		font-size: 12px;
-		padding: 13px 16px;
-	}
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .btn_a {
+    padding: 10px 30px !important;
+  }
+  .login {
+    margin-left: 0px;
+    margin-right: 60px;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  #menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #0f02ce;
+    z-index: -1;
+    transition: 0.4s;
+    padding-top: 120px;
+  }
+  #menu li {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #menu li a {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .tab_menu {
+    right: 0 !important;
+  }
+  .crypto_cal_area .input_box {
+    font-size: 16px;
+  }
+  .select_box {
+    line-height: 15px;
+  }
+  .nice-select {
+    font-size: 12px;
+  }
+  .input_rap {
+    margin: 30px 0;
+  }
+  .crypto_cal_area_box {
+    box-shadow: 0 3px 21px 0 rgb(255 115 106 / 66%);
+    margin: -210px 40px 20px 40px;
+    padding: 25px 30px;
+  }
+  .Connecting_box {
+    padding: 230px 0;
+  }
+  .Connecting_area_left,
+  .Connecting_area_right {
+    padding: 0;
+    margin: 0;
+  }
+  .Connecting_bg_shape2 {
+    right: 216px;
+  }
+  .Connecting_bg_shape2 {
+    top: 140%;
+  }
+  .Connecting_bg_shape1 {
+    right: 110px;
+  }
+  .Connecting_bg_shape1 {
+    top: 75%;
+    right: 90px;
+  }
+  .footer_icon a {
+    padding-right: 15px;
+  }
+  .Newsletter .input_box {
+    font-size: 12px;
+    padding: 13px 16px;
+  }
+  /* --------------------------------------------------------- about page ------------------------------------------------ */
+  .others_bg_area img {
+    top: 115px;
+    height: 240px;
+  }
 }
 
 /*Medium devices (tablets, 767px and down)*/
 @media (max-width: 767px) {
-	/* ------------------------
+  /* ------------------------
 	home page 
 	------------------------ */
-	#menu {
-		padding-top: 80px;
-	}
-	.bg_shape1 {
-		top: 160px;
-		left: 49%;
-	}
-	.bg_shape2 {
-		top: 220px;
-		left: 63%;
-	}
-	.crypto_cal_area_box {
-		margin: -210px 0 20px 0;
-		padding: 20px 25px;
-	}
-	.Connecting_bg_shape2 {
-		top: 175%;
-		right: 130px;
-	}
-	.Connecting_bg_shape1 {
-		top: 80%;
-		right: 57px;
-	}
-	.footer_top_wrap {
-		padding: 30px;
-		display: block;
-		top: -110px;
-	}
-	.footer_top_left p {
-		margin-bottom: 25px;
-	}
+  #menu {
+    padding-top: 80px;
+  }
+  .bg_shape1 {
+    top: 160px;
+    left: 49%;
+  }
+  .bg_shape2 {
+    top: 220px;
+    left: 63%;
+  }
+  .crypto_cal_area_box {
+    margin: -210px 0 20px 0;
+    padding: 20px 25px;
+  }
+  .Connecting_bg_shape2 {
+    top: 175%;
+    right: 130px;
+  }
+  .Connecting_bg_shape1 {
+    top: 80%;
+    right: 57px;
+  }
+  .footer_top_wrap {
+    padding: 30px;
+    display: block;
+    top: -110px;
+  }
+  .footer_top_left p {
+    margin-bottom: 25px;
+  }
+  /* --------------------------------------------------------- about page ------------------------------------------------ */
+  .about_counter {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .achievements_area {
+    margin: 0;
+  }
+  .expert_man img {
+    max-height: 500px;
+  }
 }
 
 /*Small devices (landscape phones, 575px and down)*/
 @media (max-width: 575.98px) {
-	/* ------------------------
+  /* ------------------------
 	home page 
 	------------------------ */
-	h2 {
-		font-size: 40px;
-		line-height: 61px;
-		max-width: 90%;
-	}
-	h3 {
-		font-size: 18px;
-		margin: 0 !important;
-	}
-	.btn_a {
-		padding: 10px 25px !important;
-	}
-	.bg_shape2 {
-		top: 195px;
-		left: 63%;
-	}
-	.input_rap {
-		margin: 15px 0;
-	}
-	.Connecting_box {
-		padding: 160px 0;
-	}
-	.Connecting_area_right>img{
-		margin-top: 100px;
-	}
-	.Connecting_bg_shape2 {
-		top: 166%;
-		right: 130px;
-	}
-	.footer_top_left h3{
-		font-size: 16px;
-	}
+  h2 {
+    font-size: 40px;
+    line-height: 61px;
+    max-width: 90%;
+  }
+  h3 {
+    font-size: 24px;
+    margin: 0 !important;
+  }
+  .btn_a {
+    padding: 10px 25px !important;
+  }
+  .bg_shape2 {
+    top: 195px;
+    left: 63%;
+  }
+  .input_rap {
+    margin: 15px 0;
+  }
+  .Connecting_box {
+    padding: 160px 0;
+  }
+  .Connecting_area_right > img {
+    margin-top: 100px;
+  }
+  .Connecting_bg_shape2 {
+    top: 166%;
+    right: 130px;
+  }
+  .footer_top_left h3 {
+    font-size: 16px;
+  }
+  /*------------------------------------------------------------------------ service page --------------------------------------------------- */
+  .others_bg_area {
+    min-height: 40vh;
+  }
+ 
+  /* --------------------------------------------------------- about page ------------------------------------------------ */
+
+  .others_bg_area img {
+    top: 90px;
+    height: 183px;
+  }
+  .achievements_area_right h3 {
+    font-size: 40px;
+  }
+  .achievements_area_right h5 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
 }
 /*Small devices (landscape phones, 400px and down)*/
 @media (max-width: 400px) {
-	/* ------------------------
+  /* ------------------------
 	home page 
 	------------------------ */
-	h2 {
-		max-width: 100%;
-	}
-	.btn_a {
-		padding: 10px 22px !important;
-	}
-	.logo img {
-		max-width: 80px;
-	}
-	.nav-link {
-		padding: 0 7px;
-	}
-	.hamburger-menu {
-		top: 14px;
-	}
-	.Connecting_bg_shape2 {
-		top: 205%;
-		right: 100px;
-	}
-	.Connecting_bg_shape2 img {
-		max-width: 85px;
-	}
-	.Connecting_bg_shape1 {
-		top: 102%;
-		right: 45px;
-	}
+  h2 {
+    max-width: 100%;
+  }
+  .btn_a {
+    padding: 10px 22px !important;
+  }
+  .logo img {
+    max-width: 80px;
+  }
+  .nav-link {
+    padding: 0 7px;
+  }
+  .hamburger-menu {
+    top: 14px;
+  }
+  .Connecting_bg_shape2 {
+    top: 205%;
+    right: 100px;
+  }
+  .Connecting_bg_shape2 img {
+    max-width: 85px;
+  }
+  .Connecting_bg_shape1 {
+    top: 102%;
+    right: 45px;
+  }
 }
-

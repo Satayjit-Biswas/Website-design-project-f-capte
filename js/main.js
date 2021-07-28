@@ -24,6 +24,11 @@
       });
     }
     isotopeInit();
+
+    $('.count-up').counterUp({
+      delay: 10,
+      time: 1000,
+    });
   });
 
   $(document).ready(function () {
@@ -89,7 +94,7 @@
           },
           992: {
             items: 3,
-          }
+          },
         },
       });
     }
@@ -113,7 +118,7 @@
           },
           992: {
             items: 3,
-          }
+          },
         },
       });
     }

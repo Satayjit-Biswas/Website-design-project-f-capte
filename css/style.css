@@ -372,7 +372,7 @@ textarea:focus {
   }
 }
 
-/*Hamburger-menu START CSS*/
+/*---------------------------------------------------------------Hamburger-menu START CSS--------------------------------------------*/
 
 .hamburger-menu {
   cursor: pointer;
@@ -421,7 +421,7 @@ textarea:focus {
   -ms-transform: translateY(-325%) rotate(-135deg);
   transform: translateY(-325%) rotate(-135deg);
 }
-/* menu  */
+/*----------------------------------------------------------------- menu  ---------------------------------------------------------*/
 header {
   position: absolute;
   top: 0;
@@ -510,10 +510,8 @@ header {
 .login_user:hover i {
   color: #ffa369;
 }
-/* ------------------------
-	home page 
-	------------------------ */
-/* home page slider area  */
+/* -------------------------------------	home page -------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------ home page slider area  --------------------------------------------------*/
 .slider_bg {
   padding: 150px 0 320px 0;
   background-position: top center;
@@ -540,7 +538,7 @@ header {
   background-color: transparent;
   background-image: linear-gradient(92deg, #ffa369 0%, #ff436b 100%);
 }
-/* Cryptocurrency Calculator area  */
+/*--------------------------------------------------------------------------------------- Cryptocurrency Calculator area ------------------------------------------------------- */
 .crypto_cal_area_box {
   box-shadow: 0 15px 70px 0 rgb(255 115 106 / 66%);
   margin: -180px 40px 80px 40px;
@@ -605,7 +603,7 @@ header {
 .nice-select .option.selected.focus {
   background-color: #0817a2;
 }
-/* Live Pricing area  */
+/*---------------------------------------------------------------------------- Live Pricing area --------------------------------------------------------- */
 .live_price_box a {
   display: inline-block;
   color: #000000;
@@ -676,7 +674,7 @@ header {
   max-width: 140px;
   transform: rotate(100deg);
 }
-/* Our Services area  */
+/* ----------------------------------------------------------------------Our Services area  ---------------------------------------------------------*/
 
 .service_box {
   margin: 30px 0;
@@ -711,7 +709,7 @@ header {
   transition: 0.4s;
   text-transform: capitalize;
 }
-/* client review area  */
+/* ---------------------------------------------------------client review area -------------------------------------------------------- */
 .happy_clients_area{
   margin: 30px 0;
 }
@@ -792,7 +790,7 @@ header {
 .owl-dot.active {
   background: linear-gradient(121deg, #ffa369 40%, #ff436b 89%);
 }
-/* recent articles area  */
+/* ---------------------------------------------------------------------------- recent articles area ------------------------------------------------- */
 .recent_articles{
   margin: 90px 0 210px 0;
 }
@@ -841,7 +839,7 @@ header {
   opacity: 0;
   transform: .4s;
 }
-/* footer area */
+/* ---------------------------------------------------------------------------footer area -------------------------------------------------*/
 .footer_area {
   background-color: #0817a2;
   border-radius: 40px 40px 0 0;
@@ -944,7 +942,7 @@ header {
 .Newsletter .btn_a:hover::after {
   transform: translate(-50%, -50%) scale(2);
 }
-/*return-to-top START CSS*/
+/*------------------------------------------------------------ return-to-top START ----------------------------------------------------------CSS*/
 .back-to-top {
   font-size: 24px;
   width: 45px;
@@ -966,4 +964,278 @@ header {
   background: #ffffff;
   box-shadow: 0px 0px 6px 2px #1a73e8;
   color: #1a73e8;
+}
+/*------------------------------------------------------------------------ others bg header--------------------------------------------------- */
+
+.others_bg_area{
+  min-height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+.others_bg_area img{
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  height: 360px;
+  width: 110% !important;
+}
+/*------------------------------------------------------------------------ service page --------------------------------------------------- */
+/* ----------------------------------------------------------------------------- choose area --------------------------------------- */
+.choose_area{
+  padding: 100px 0 70px 0;
+}
+.choose_right_area{
+  margin-left: 40px;
+}
+.choose_right_area_box h4{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 62px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 40px;
+  background-color: #0817a2;
+  position: relative;
+  z-index: -1;
+}
+.choose_right_area_box h4::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(121deg, #ffa369 40%, #ff436b 89%);
+  z-index: -1;
+  opacity: 0;
+  transition: .3s;
+}
+.choose_right_area_box:hover > h4::before{
+  opacity: 1;
+  box-shadow: 0 15px 40px -4px rgb(255 115 106 / 62%);
+
+}
+.choose_right_area_box h5{
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/*---------------------------------------------------- servicepage_service_area----------------------------------------------- */
+.servicepage_service_area{
+  padding-bottom: 120px;
+}
+/*------------------------------------------------------------------------ Contact page --------------------------------------------------- */
+/* ----------------------------------------------------------------------------- contact form --------------------------------------- */
+.input_box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid rgb(220 220 220);
+  margin: 15px 0;
+  transition: .3s;
+}
+.input_box:focus {
+  border: 2px solid rgb(66 28 191);
+  box-shadow: 0 0 10px 0 #183acc57;
+}
+.contact_form textarea{
+  min-height: 150px;
+}
+.form_btn{
+  border: none;
+}
+/*-------------------------------------------------------------- location area  -------------------------------------------------------*/
+.location_area{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.location_box{
+  background-color: #0817a2;
+  padding: 50px 20px;
+  position: relative;
+  border-radius: 20px;
+  z-index: 1;
+  margin-top: 30px;
+}
+.location_box::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ffa369 40%, #ff436b 89%);
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .3s;
+}
+.location_box:hover::before{
+  opacity: 1;
+}
+.location_box_left i{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 75px
+}
+.location_box_right {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.location_box_right h5{
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.location_box_right p{
+  font-size: 14px;
+}
+/*------------------------------------------------------------------------ about page --------------------------------------------------- */
+/* ----------------------------------------------------------------------------- achievements area --------------------------------------- */
+/* achievements area  */
+.achievements_area{
+  margin: 120px 0;
+}
+.about_counter{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.counter_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f02ce;
+  background-image: linear-gradient(115deg,#3d1d98 0%,#15008d 100%);
+  color: #ffffff;
+  border-radius: 20PX;
+  padding: 60px 40px;
+  transition: .4s;
+  position: relative;
+  z-index: 1;
+}
+.counter_box::before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(288deg,  #ff436b 0%, #ffa369 100%);
+  z-index: -1;
+  border-radius: 20PX;
+  opacity: 0;
+  transition: .4s;
+}
+.counter_box:hover{
+  transform: scale(1.09);
+}
+.counter_box:hover::before{
+  opacity: 1;
+}
+.counter_left{
+  width: 90px;
+  height: 90px;
+  background-color: rgba(255,255,255,.17);
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.counter_left i{
+  font-size: 38px;
+  line-height: 92px;
+}
+.counter_right{
+  width: 100%;
+}
+.counter_right h3{ 
+  font-size: 32px; 
+  font-family: "Montserrat";
+} 
+.counter_right h5{
+  font-size: 18px;
+  font-weight: 500;
+}
+.achievements_area_right{
+  margin-left: 80px;
+}
+.achievements_area_right h3{
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+.achievements_area_right h5{
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.achievements_area_right p{
+  margin-bottom: 40px;
+}
+/*--------------------------------------------------------------------- expert area---------------------------------------------------------------- */
+.expert_area{
+  margin-bottom: 220px;
+}
+.expert_man {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.expert_man img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 420px;
+}
+.expert_man_box{
+  position: absolute;
+  top: 0;
+}
+.expert_man:hover .expert_man_box{
+  opacity: .8;
+}
+.expert_man_box{
+  transition: .4s;
+  opacity: 0;
+  background-image: linear-gradient(288deg,  #ff436b 0%, #ffa369 100%);
+  width: 100%;
+  padding: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.expert_man_title{
+  color: #ffffff;
+}
+.expert_man_title h3{
+  font-size: 24px;
+}
+.expert_man_social i:hover{
+  color: #0f02ce;
+  background-color: rgba(255,255,255);
+  transform: scale(1.08);
+  line-height: 36px;
+}
+.expert_man_social i{
+  text-align: center;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(255,255,255,.17);
+  color: #ffffff;
+  transition: .4s;
+  line-height: 35px;
+  margin-right: 5px;
+  border-radius: 50%;
 }
